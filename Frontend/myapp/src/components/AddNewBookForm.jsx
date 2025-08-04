@@ -27,7 +27,7 @@ const handleSubmit = async (e) => {
   e.preventDefault(); // prevent page reload on form submission
 
   try {
-    const response = await fetch("http://localhost:3000/books/postBook", {
+    const response = await fetch("https://fullstack-book-manager.vercel.app//books/postBook", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
