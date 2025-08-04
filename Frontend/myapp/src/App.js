@@ -10,7 +10,6 @@ function App() {
     <div className="App">
       <AddNewBookForm/>
       <Books />
-      <h1>Book By Title</h1>
       <BookByTitle title="To Kill a Mockingbird" />
       <BookByAuthor authorName="Harper Lee"/>
     </div>
