@@ -7,7 +7,7 @@ const Books = () => {
 
   const deleteHandler = async (bookId) => {
     try {
-      const response = await fetch(`http://localhost:3000/books/${bookId}`, {
+      const response = await fetch(`https://fullstack-book-manager.vercel.app/books/${bookId}`, {
         method: "DELETE",
       });
 
