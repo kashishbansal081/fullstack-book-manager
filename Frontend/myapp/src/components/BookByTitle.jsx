@@ -7,6 +7,7 @@ const {data, loading, error } = useFetch(`https://fullstack-book-manager.vercel.
 
 return data ? (
     <div>
+        <h1>Book By Title</h1>
         <h1>{data.title}</h1>
         <p><strong>Author: </strong>{data.author}</p>
         <p><strong>Release Year: </strong>{data.publishedYear}</p>
