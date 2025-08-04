@@ -3,7 +3,7 @@ const { default: useFetch } = require("../useFetch");
 const BookByAuthor = ({authorName})=>{
     // console.log(authorName)
 
-    const {data, loading, error} = useFetch(`http://localhost:3000/books/authors/${authorName}`)
+    const {data, loading, error} = useFetch(`https://fullstack-book-manager.vercel.app/books/authors/${authorName}`)
     // console.log(data)
 
     return (
