@@ -3,7 +3,7 @@ import useFetch from "../useFetch";
 
 const Books = () => {
     const [successMessage, setSuccessMessage] = useState('')
-  const { data, loading, error } = useFetch("http://localhost:3000/books");
+  const { data, loading, error } = useFetch("https://fullstack-book-manager.vercel.app/books");
 
   const deleteHandler = async (bookId) => {
     try {
